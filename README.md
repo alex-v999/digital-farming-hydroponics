@@ -1,9 +1,10 @@
 # 🌱 Digital Farming — Hydroponics Management System
 
+<p align="center">
+  <img src="Pictures/DF%20LOGO.png" alt="Logo" width="120"/>
+</p>
+
 ![Project Banner](https://socialify.git.ci/alex-v999/digital-farming-hydroponics/image?custom_language=C%23&description=1&font=Jost&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie+Brown&pulls=1&stargazers=1&theme=Dark)
-
-![Logo](Pictures/DF LOGO.png)
-
 
 **Digital Farming** is a C# based application for monitoring, controlling, and optimizing hydroponic farm setups. Designed to help growers automate processes, collect data, and make better decisions.
 
@@ -55,8 +56,16 @@ Hardware that I used in the project:
 ---
 
 ## 📸 Screenshots
+
+User Interface - Dashboard
+
 ![Dashboard](Pictures/dashboard.png)
+
+Communication between MQTT and Digital Farming
+
 ![MQTT Communication](Pictures/pow.png)
+
+Profile view - You can get custom instructions for each plant type.
 ![Profile View](Pictures/profile.png)
 
 
