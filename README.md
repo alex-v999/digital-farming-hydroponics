@@ -1,48 +1,69 @@
-# 🌱 Digital Farming — Hydroponics Management
+# 🌱 Digital Farming — Hydroponics Management System
 
 ![Project Banner](https://socialify.git.ci/alex-v999/digital-farming-hydroponics/image?custom_language=C%23&description=1&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fibb.co%2FT6BcjvT&name=1&owner=1&pattern=Overlapping+Hexagons&pulls=1&stargazers=1&theme=Dark)
 
-**Smart hydroponics management system**  
-Monitor, control, and optimize your hydroponic farm digitally.
+**Digital Farming** is a C#–based application for monitoring, controlling, and optimizing hydroponic farm setups. Designed to help growers automate processes, collect data, and make better decisions.
 
 ---
 
-## ⚙️ Features
+## 🔍 Table of Contents
 
-- Real-time sensor data (pH, EC, temperature, humidity)  
-- Automated control (pumps, lighting, nutrient dosing)  
-- Web-based dashboard for visualization & control  
-- Mobile-responsive UI  
-- Historical data logs and trend charts  
-- Alerts & notifications when thresholds are exceeded  
-- Optional cloud backup / sync (e.g. Google Drive)  
-
----
-
-## 🧩 Architecture & Tech Stack
-
-| Layer        | Technology / Tools           |
-|---------------|------------------------------|
-| Frontend     | React / Angular / Vue (specify) |
-| Backend      | .NET Core / ASP.NET / Node.js (specify) |
-| Database     | PostgreSQL / MySQL / SQLite  |
-| IoT Hardware | ESP32 / Arduino / Raspberry Pi |
-| Communication| MQTT / HTTP / WebSockets      |
-| Cloud / Backup| Google Drive API, AWS, etc. (if any) |
-
-*(Replace above with what you actually use.)*
+1. [Features](#features)  
+2. [Architecture & Tech Stack](#architecture--tech-stack)  
+3. [Prerequisites](#prerequisites)  
+4. [Installation & Setup](#installation--setup)  
+5. [Usage](#usage)  
+6. [Screenshots / Demo](#screenshots--demo)  
+7. [Contributing](#contributing)  
+8. [Roadmap](#roadmap)  
+9. [License](#license)  
+10. [Acknowledgements](#acknowledgements)
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
 
-### Prerequisites  
-- [List what’s needed: Node version, .NET SDK, Python, etc.]  
-- Sensor hardware and wiring (if using IoT)  
-- Database server  
+- Real-time sensor monitoring (e.g. pH, EC, temperature, humidity)  
+- Automated actuation (pumps, lighting, nutrient dosing)  
+- Data logging and trend graphs  
+- Alerts / thresholds (e.g. when readings exceed safe bounds)  
+- Manual override and control interface  
+- Backup / export of data  
+- Multi-unit management (if you support more than one hydro unit)  
+- Optional cloud sync / remote access (if implemented)
 
-### Installation  
+---
 
-```bash
-git clone https://github.com/yourusername/digital-farming.git
-cd digital-farming
+## 🧱 Architecture & Tech Stack
+
+| Layer / Component       | Technology / Tools                                                      |
+|--------------------------|---------------------------------------------------------------------------|
+| Core / Backend           | C# (.NET 6/7) or .NET Core (specify)                                     |
+| UI / Frontend            | WPF / WinForms / Avalonia / Blazor (specify)                             |
+| Database                 | SQLite / SQL Server / MySQL / PostgreSQL (specify)                        |
+| Sensor Communication     | Serial / USB / COM ports / MQTT / WebSockets (specify)                    |
+| Hardware / Microcontroller | ESP32 / Arduino / custom sensor boards (if used)                        |
+| Backup / Cloud Sync      | Google Drive API, Azure Blob, etc. (if any)                               |
+
+> ⚠️ **You must replace “specify” entries above** with your actual choices.
+
+---
+
+## 🧰 Prerequisites
+
+Before running the application, make sure you have:
+
+- .NET SDK version **X.Y.Z** (replace with your target)  
+- Runtime (if separate)  
+- Database server or file (if applicable)  
+- Sensor hardware / controller (if relevant)  
+- Connection parameters (COM ports, network addresses)  
+
+---
+
+## 🚀 Installation & Setup
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/alex-v999/digital-farming-hydroponics.git
+   cd digital-farming-hydroponics
