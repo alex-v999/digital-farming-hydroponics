@@ -6,21 +6,6 @@
 
 ---
 
-## 🔍 Table of Contents
-
-1. [Features](#features)  
-2. [Architecture & Tech Stack](#architecture--tech-stack)  
-3. [Prerequisites](#prerequisites)  
-4. [Installation & Setup](#installation--setup)  
-5. [Usage](#usage)  
-6. [Screenshots / Demo](#screenshots--demo)  
-7. [Contributing](#contributing)  
-8. [Roadmap](#roadmap)  
-9. [License](#license)  
-10. [Acknowledgements](#acknowledgements)
-
----
-
 ## ✨ Features
 
 - Real-time sensor monitoring (e.g. pH, EC, temperature, humidity)  
