@@ -38,14 +38,10 @@
 
 | Layer / Component       | Technology / Tools                                                      |
 |--------------------------|---------------------------------------------------------------------------|
-| Core / Backend           | C# (.NET 6/7) or .NET Core (specify)                                     |
-| UI / Frontend            | WPF / WinForms / Avalonia / Blazor (specify)                             |
-| Database                 | SQLite / SQL Server / MySQL / PostgreSQL (specify)                        |
-| Sensor Communication     | Serial / USB / COM ports / MQTT / WebSockets (specify)                    |
-| Hardware / Microcontroller | ESP32 / Arduino / custom sensor boards (if used)                        |
-| Backup / Cloud Sync      | Google Drive API, Azure Blob, etc. (if any)                               |
-
-> ⚠️ **You must replace “specify” entries above** with your actual choices.
+| Core / Backend           | C# (.NET 8)                                                               |
+| UI / Frontend            | Winforms                                                                  |
+| Sensor Communication     | MQTT (through HiveMQ)                                                     |
+| Hardware / Microcontroller | ESP32                                                                   |
 
 ---
 
@@ -53,11 +49,10 @@
 
 Before running the application, make sure you have:
 
-- .NET SDK version **X.Y.Z** (replace with your target)  
-- Runtime (if separate)  
-- Database server or file (if applicable)  
-- Sensor hardware / controller (if relevant)  
-- Connection parameters (COM ports, network addresses)  
+- Visual Studio Installed 
+- Arduino IDE  
+- Sensor hardware & controller  
+- HiveMQ Account   
 
 ---
 
