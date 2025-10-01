@@ -2,7 +2,10 @@
 
 ![Project Banner](https://socialify.git.ci/alex-v999/digital-farming-hydroponics/image?custom_language=C%23&description=1&font=Jost&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie+Brown&pulls=1&stargazers=1&theme=Dark)
 
-**Digital Farming** is a C#–based application for monitoring, controlling, and optimizing hydroponic farm setups. Designed to help growers automate processes, collect data, and make better decisions.
+![Logo](Pictures/DF LOGO.png)
+
+
+**Digital Farming** is a C# based application for monitoring, controlling, and optimizing hydroponic farm setups. Designed to help growers automate processes, collect data, and make better decisions.
 
 ---
 
@@ -18,12 +21,12 @@
 
 ## 🧱 Architecture & Tech Stack
 
-| Layer / Component       | Technology / Tools                                                      |
-|--------------------------|---------------------------------------------------------------------------|
-| Core / Backend           | C# (.NET 8)                                                               |
-| UI / Frontend            | Winforms                                                                  |
-| Sensor Communication     | MQTT (through HiveMQ)                                                     |
-| Hardware / Microcontroller | ESP32                                                                   |
+| Layer / Component         | Technology / Tools                                                        |
+|---------------------------|---------------------------------------------------------------------------|
+| Core                      | C# (.NET 8)                                                               |
+| UI                        | Winforms                                                                  |
+| Sensor Communication      | MQTT (through HiveMQ)                                                     |
+| Microcontroller           | ESP32                                                                     |
 
 ---
 
@@ -38,9 +41,23 @@ Before running the application, make sure you have:
 
 ---
 
-## 🚀 Installation & Setup
+## 🧰 Hardware
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/alex-v999/digital-farming-hydroponics.git
-   cd digital-farming-hydroponics
+Hardware that I used in the project:
+
+- Water Pump ( 800L/h 5m, DC 12V )
+- ESP32 - ( Must Have )
+- TDS Meter V1.0 ( Mmgoqqt 3.3v ) - Must Have
+- Liquid PH 0-14 Value Detection Regulator Sensor Module - Black Probe - Must Have
+- HiveMQ Account   
+- Wi-Fi for PC and Tower (can be separate)
+
+---
+
+## 📸 Screenshots
+![Dashboard](Pictures/dashboard.png)
+![MQTT Communication](Pictures/pow.png)
+![Profile View](Pictures/profile.png)
+
+
+
