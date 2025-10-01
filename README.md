@@ -1,6 +1,6 @@
 # 🌱 Digital Farming — Hydroponics Management System
 
-![Project Banner](https://socialify.git.ci/alex-v999/digital-farming-hydroponics/image?custom_language=C%23&description=1&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fibb.co%2FT6BcjvT&name=1&owner=1&pattern=Overlapping+Hexagons&pulls=1&stargazers=1&theme=Dark)
+![Project Banner](https://socialify.git.ci/alex-v999/digital-farming-hydroponics/image?custom_language=C%23&description=1&font=Jost&forks=1&issues=1&language=1&name=1&owner=1&pattern=Overlapping+Hexagons&pulls=1&stargazers=1&theme=Dark)
 
 **Digital Farming** is a C#–based application for monitoring, controlling, and optimizing hydroponic farm setups. Designed to help growers automate processes, collect data, and make better decisions.
 
@@ -8,14 +8,11 @@
 
 ## ✨ Features
 
-- Real-time sensor monitoring (e.g. pH, EC, temperature, humidity)  
-- Automated actuation (pumps, lighting, nutrient dosing)  
+- Real-time sensor monitoring (e.g. pH, EC, temperature, humidity, etc)  
+- Automated actuation (pumps, lighting, vents)  
 - Data logging and trend graphs  
 - Alerts / thresholds (e.g. when readings exceed safe bounds)  
 - Manual override and control interface  
-- Backup / export of data  
-- Multi-unit management (if you support more than one hydro unit)  
-- Optional cloud sync / remote access (if implemented)
 
 ---
 
